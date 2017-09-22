@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.cxp.custompasswordview.MainActivity">
+<com.cxp.custompasswordview.PassWordView
+    android:id="@+id/passView"
+    android:focusableInTouchMode="true"
+    android:inputType="number"
+    android:maxLength="6"
+    android:lines="1"
+    android:cursorVisible="false"
+    android:digits="0123456789"
+    android:layout_width="300dp"
+    android:layout_height="44dp"
+    />
+
+</LinearLayout>
